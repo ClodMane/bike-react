@@ -1,0 +1,26 @@
+@import './variables.scss';
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.button {
+    min-width: 92px;
+    color: #fff;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 16px;
+    line-height: 150%;
+    transition: 0.3s transform;
+    border: none;
+    background-color: #3922C5;
+    cursor: pointer;
+    padding: 14px 24px;
+    // font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+    background-color :#2C1A9A;
+}
+
+.button:active {
+    background-color :#1F1368;
+}

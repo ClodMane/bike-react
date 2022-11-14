@@ -1,0 +1,30 @@
+
+
+.Panel {
+    width: 726px;
+    height: 112px;
+    box-shadow: 0px -10px 40px rgba(12, 12, 12, 0.1);
+    border-radius: 16px;
+    margin: 40px auto 30px;
+    padding-left: 36px;
+}
+
+.button-pannel {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.button-cancel {
+    background: none;
+    color: #0C0C0C;
+}
+
+.button-cancel:hover {
+    background: none;
+    color: #2C1A9A;
+}
+
+.button-cancel:active {
+    background: none;
+    color: #1F1368;
+}

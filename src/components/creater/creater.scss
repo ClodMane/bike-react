@@ -1,0 +1,21 @@
+.Creater__input {
+    margin-left: 60px;
+    margin-right: 24px;
+    width: 351px;
+    height: 52px;
+    border-radius: 16px;
+    border: 1px solid #D9D9D9;
+    text-indent: 16px;
+    outline: none;
+    color:#0C0C0C;
+}
+.Creater__input::-moz-placeholder { color: #D9D9D9; }
+.Creater__input::-webkit-input-placeholder { color: #D9D9D9; }
+
+input:focus {
+    border-color:#3922C5;
+}
+
+.characteristic__header-creo {
+    margin-bottom: 18px;
+}
