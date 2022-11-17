@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 
-.card-content {
+
+.Card-content {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Card__description-header {
@@ -13,6 +16,12 @@
     margin-left: 71px;
     margin-top: 41px;
     margin-bottom: 20px;
+
+    @media (max-width: 375px) {
+        font-size: 24px;
+        max-width: 295px;
+        margin: 0 auto;
+    }
 }
 
 .Card__description-dscr {
@@ -21,6 +30,18 @@
     line-height: 24px;
     margin-left:71px;
     margin-bottom: 16px;
+    width: 100%;
+    flex-wrap: wrap;
+    p {
+        margin-bottom: 16px;
+    }
+    @media (max-width: 375px) {
+        margin: 20px 20px 30px;
+        max-width: 295px;
+        p {
+            margin-bottom: 15px;
+        }
+    }
 }
 
 .Card__line {
@@ -29,12 +50,21 @@
     background-color: #D9D9D9;
     height: 1px;
     border: none;
+    @media (max-width: 375px) {
+        max-width: 295px;
+        margin: 0 auto;
+    }
 }
 
 .sub__header{
     margin-left: 60px;
     margin-bottom: 20px;
     font-weight: 500;
+    @media (max-width: 375px) {
+        font-size: 16px;
+        max-width: 295px;
+        margin: 30px auto 15px;
+    }
 }
 
 .Card__characteristics-dscr {
@@ -51,7 +81,14 @@ margin-bottom: 31px;
 margin-left: 57px;
 list-style-type: none;
 counter-reset: num;
+
+@media (max-width: 375px) {
+    max-height: none;
+    max-width: 295px;
+    margin: 0 auto;
+   
 }
+
 li::before {
     font-family: 'Montserrat', sans-serif;
     content: counter(num) '. ';
@@ -59,6 +96,8 @@ li::before {
     color: #494949;
     padding-right: 5px;
    }
+}
+
 li {
     padding-left: 3px;
     margin-bottom: 9px;
@@ -66,6 +105,38 @@ li {
     min-width: 280px;
 }
 
+.Card__characteristics-dscr_image {
+    li::before {
+        content: '';
+        padding-right: 16px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: no-repeat url("../../resources/icon/bike.svg");
+       }
+    li {
+        display: flex;
+        min-width: 293px;
+        padding-left: 3px;
+        margin-bottom: 9px;
+        margin-right: 2px;
+    }
+}
+
 .Card__image {
     margin-top: 40px;
+
+    &--big{
+    display: block;
+    @media (max-width: 375px) {
+    display: none;
+}
+    }
+    &--small{
+    display: none;
+    @media (max-width: 375px) {
+    display: block;
+    margin: 30px 20px;
+}
+    }
 }
