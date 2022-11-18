@@ -1,6 +1,3 @@
-// import image from "../../resources/image/image_mini_2.png";
-// import image from "../../resources/image/image2.png";
-
 import "./card.scss";
 
 const Card = ({ card }) => {

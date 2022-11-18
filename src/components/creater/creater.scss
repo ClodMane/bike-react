@@ -16,9 +16,6 @@ input:focus {
     border-color:#3922C5;
 }
 
-.characteristic__header-creo {
-    margin-bottom: 19px;
-}
 
 .Creater{
     
@@ -35,6 +32,9 @@ input:focus {
         .Creater__input {
             width: 295px;
             margin: 0 auto 15px;
+            @media (max-width: 375px) {
+                margin: 0 auto 15px;
+            }
         }
 
         .button {
@@ -43,5 +43,12 @@ input:focus {
             // margin: 0 auto 15px;
         }
 
+    }
+
+    .characteristic__header {
+        margin-bottom: 19px;
+        @media (max-width: 375px) {
+            margin-bottom: 13px;
+        }
     }
 }

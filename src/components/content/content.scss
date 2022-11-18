@@ -7,7 +7,9 @@
     overflow: hidden;
 
     @media (max-width: 375px) {
-        border-radius: 0px;
+        border-radius: 20px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
 }
 

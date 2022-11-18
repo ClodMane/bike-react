@@ -15,6 +15,9 @@
     cursor: pointer;
     padding: 14px 24px;
     // font-family: 'Montserrat', sans-serif;
+    @media (max-width: 375px) {
+    padding: 16px 24px;
+    }
 }
 
 .button:hover {

@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-
-
 .Card-content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
+.Card__description-wrapper {
+    @media (max-width: 375px) {
+        margin-top: -9px;
+    }
+}
 .Card__description-header {
     font-size: 26px;
     line-height: 150%;
@@ -38,6 +41,7 @@
     @media (max-width: 375px) {
         margin: 20px 20px 30px;
         max-width: 295px;
+        line-height: 21px;
         p {
             margin-bottom: 15px;
         }
@@ -63,7 +67,13 @@
     @media (max-width: 375px) {
         font-size: 16px;
         max-width: 295px;
-        margin: 30px auto 15px;
+        margin: 28px auto 14px;
+    }
+}
+.characteristic__header-creo {
+    @media (max-width: 375px) {
+        margin-top: 20px;
+        margin-bottom: 13px;
     }
 }
 
@@ -85,7 +95,8 @@ counter-reset: num;
 @media (max-width: 375px) {
     max-height: none;
     max-width: 295px;
-    margin: 0 auto;
+    margin: 0 16px;
+    line-height: 20px;
    
 }
 

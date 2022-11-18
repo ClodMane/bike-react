@@ -1,0 +1,17 @@
+.Item {
+    display: block;
+    width: 845px;
+    height: 919px;
+
+    @media (max-width: 375px) {
+        display: none;
+        // max-width: 335px;
+        // width: 100%;
+        // height: auto;
+        // flex-wrap: wrap; 
+        // display: flex;
+        // flex-wrap: wrap;
+        // flex-direction: column;
+    }
+    
+}
