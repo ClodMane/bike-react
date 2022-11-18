@@ -7,7 +7,7 @@
 }
 
 .Card__description-wrapper {
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
         margin-top: -9px;
     }
 }
@@ -20,7 +20,7 @@
     margin-top: 41px;
     margin-bottom: 20px;
 
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
         font-size: 24px;
         max-width: 295px;
         margin: 0 auto;
@@ -38,7 +38,7 @@
     p {
         margin-bottom: 16px;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
         margin: 20px 20px 30px;
         max-width: 295px;
         line-height: 21px;
@@ -54,7 +54,7 @@
     background-color: #D9D9D9;
     height: 1px;
     border: none;
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
         max-width: 295px;
         margin: 0 auto;
     }
@@ -64,14 +64,14 @@
     margin-left: 60px;
     margin-bottom: 20px;
     font-weight: 500;
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
         font-size: 16px;
         max-width: 295px;
         margin: 28px auto 14px;
     }
 }
 .characteristic__header-creo {
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
         margin-top: 20px;
         margin-bottom: 13px;
     }
@@ -92,7 +92,7 @@ margin-left: 57px;
 list-style-type: none;
 counter-reset: num;
 
-@media (max-width: 375px) {
+@media (max-width: 946px) {
     max-height: none;
     max-width: 295px;
     margin: 0 16px;
@@ -139,13 +139,13 @@ li {
 
     &--big{
     display: block;
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
     display: none;
 }
     }
     &--small{
     display: none;
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
     display: block;
     margin: 30px 20px;
 }

@@ -2,7 +2,8 @@
     color: #0C0C0C;
     background-color: #fff;
     padding: 22px 20px 21px;
-    width: 335px;
+    // width: 335px;
+    width: 100%;
     min-height: 52px;
     border-radius: 20px;
     border-bottom-left-radius: 0px;
@@ -36,7 +37,7 @@
 
 .collapse__header {
     display: none;
-    @media (max-width: 375px) {
+    @media (max-width: 946px) {
         display: block;
     }
 }

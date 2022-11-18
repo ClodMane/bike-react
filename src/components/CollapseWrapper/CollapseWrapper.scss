@@ -1,16 +1,15 @@
 .collapse-wrapper {
     display: none;
     
-    @media (max-width: 375px) {
-        margin-top: 40px;
+    @media (max-width: 946px) {
+        // margin-top: 40px;
         margin-bottom: 50px;
-        max-width: 335px;
+        max-width: 845px;
         width: 100%;
         height: auto;
         // flex-wrap: wrap; 
         display: flex;
-        flex-wrap: wrap;
         gap: 20px;
-        // flex-direction: column;
+        flex-direction: column;
     }
 }
